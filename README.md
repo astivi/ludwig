@@ -1,4 +1,10 @@
-# ludwig
+        _           _          _
+       | |_   _  __| |_      _(_) __ _
+       | | | | |/ _` \ \ /\ / / |/ _` |
+       | | |_| | (_| |\ V  V /| | (_| |
+       |_|\__,_|\__,_| \_/\_/ |_|\__, |
+                                 |___/ 
+
 
 Ludwig is a python script which does the following:
 * Clones all the repositories listed on the definitions file
