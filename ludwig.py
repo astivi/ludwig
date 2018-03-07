@@ -101,5 +101,5 @@ else:
     parsed_yml = load_yml_file(sys.argv[1])
     for values in parsed_yml:
         handle_entry(parsed_yml, values, [])
-
-    save_yml_file('docker-compose.yml', composed)
+    
+    save_yml_file(f'{values}/docker-compose.yml', composed)
