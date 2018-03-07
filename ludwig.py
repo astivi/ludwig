@@ -101,5 +101,8 @@ else:
     parsed_yml = load_yml_file(sys.argv[1])
     for values in parsed_yml:
         handle_entry(parsed_yml, values, [])
-    
-    save_yml_file(f'{values}/docker-compose.yml', composed)
+    output_path = f'{values}/docker-compose.yml'
+    print('')
+    print(f'Saving merged file at {output_path}...')
+    save_yml_file(output_path, composed)
+    print(f'Done!')
